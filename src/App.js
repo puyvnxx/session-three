@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <h1>Puy Movie Mania</h1>
+        <div className="Movie-container"> 
+            <div className="Movie-wrapper"> 
+              <div className="Movie-title"> Contoh Pertama</div>
+                <img className="Movie-image" src=""/>
+                <div className="Movie-data"> 11-22-2023</div>
+                <div calassName="Movie-rate">8.9</div>
+          </div>
+        </div>
       </header>
     </div>
   );
