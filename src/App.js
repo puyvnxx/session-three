@@ -26,10 +26,10 @@ const PopularMovieList = () =>{
 }
 
   const search = async(q)=>{
-    if(q.lenght>3){
+    if(q.length>3){
       const query = await searchMovie(q)
       setPopularMovies(query.results)
-      console.log({query:query}) 
+      // console.log({query:query})
     }
   }
 
